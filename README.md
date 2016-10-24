@@ -1,7 +1,7 @@
 TouchIDIssue
 ============
 
-
+```
 [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
                     localizedReason:@"指纹登录"
                               reply:^(BOOL success, NSError * _Nullable error) {
@@ -60,3 +60,4 @@ TouchIDIssue
                     }
                 }
             }];
+```
